@@ -27,3 +27,11 @@ public:
     }
 };
 
+int main()
+{
+    persegipanjang p;
+    p.inputData();
+    p.menghitungLuas();
+    p.output();
+    return 0;
+}
