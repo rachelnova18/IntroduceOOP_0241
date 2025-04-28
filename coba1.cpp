@@ -24,3 +24,12 @@ public:
         cin >> gravitasi;
     }
 };
+int main()
+{
+    planet venus;
+    venus.inputdata();
+    cout << "namanya adalah " << venus.nama << endl;
+    cout << "diameter planetnya adalah " << venus.diameter << endl;
+
+    venus.displaydata();
+}
